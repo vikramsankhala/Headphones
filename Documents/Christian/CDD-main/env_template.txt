@@ -1,0 +1,19 @@
+# SAP Cloud SDK for AI (generative) Credentials Template
+# Copy this content to a file named .env in the project root directory
+# Replace the placeholder values with your actual SAP credentials
+
+# Option 1: Use SAP_* prefix (recommended)
+SAP_CLIENT_ID=your_client_id_here
+SAP_CLIENT_SECRET=your_client_secret_here
+SAP_AUTH_URL=your_auth_url_here
+SAP_AI_API_URL=https://api.ai.internalprod.eu-central-1.aws.ml.hana.ondemand.com
+
+# Option 2: Use AICORE_* prefix (alternative, also supported)
+# AICORE_CLIENT_ID=your_client_id_here
+# AICORE_CLIENT_SECRET=your_client_secret_here
+# AICORE_AUTH_URL=your_auth_url_here
+# AICORE_BASE_URL=https://api.ai.internalprod.eu-central-1.aws.ml.hana.ondemand.com
+
+# Resource Group (optional, defaults to 'default')
+AICORE_RESOURCE_GROUP=default
+
