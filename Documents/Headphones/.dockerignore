@@ -1,0 +1,47 @@
+# Git files
+.git
+.gitignore
+
+# Documentation
+README.md
+*.md
+
+# Node modules (if any)
+node_modules/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+
+# Docker files (to avoid copying them into themselves)
+Dockerfile
+.dockerignore
+
+# Other non-HTML files that aren't needed for the website
+*.pdf
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp3
+*.mp4
+*.pptx
+*.docx
+*.xlsx
+*.xml
+*.json
